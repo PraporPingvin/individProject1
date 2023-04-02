@@ -115,7 +115,6 @@ main{
     background-color: #fa521a;
 }
 /*-------section header-menu-------*/
-  
 .logo__text{
     text-align: center;
     font-weight: 500;
@@ -124,10 +123,11 @@ main{
     text-transform: uppercase;
     color: #3D3D3F;
     margin-left: 7.41px;
-    margin-top: 59px;
 }
 .logo__img{
-    margin-top: 51px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
 }
 .menu__item{
     display: grid;
@@ -141,5 +141,81 @@ main{
 }
 .menu__list{
     display: flex;
-    gap: 16px;
+    align-items: center;
+    gap: 60px;
+}
+.logo__button{
+    background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
+    opacity: 0.85;
+    border-radius: 5px;
+}
+.logo__button--text{
+    display: flex;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 10px;
+}
+/*-------section banner-------*/
+.banner__text--one{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 85px;
+    color: #3D3D3F;
+    margin-top: 135px;
+}
+.banner__text__one{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 85px;
+    color: #3D3D3F;
+    margin-bottom: 42px;
+}
+.banner__text--two{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3D3D3F;
+}
+.banner__text__two{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3D3D3F;
+    margin-bottom: 40px;
+}
+.banner__text--three{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 14px 28px;
+}
+.banner__button{
+    background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
+    opacity: 0.85;
+    border-radius: 5px;
+}
+.banner__text,
+.img__banner{
+    width: 50%;
+}
+.img__banner{
+    margin-top: 106px;
 }
