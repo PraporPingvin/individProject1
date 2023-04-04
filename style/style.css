@@ -13,7 +13,7 @@
 .container{
     max-width: 2000px;
     margin: 0 auto;
-    border: solid;
+    /* border: solid; */
 }
 html,body{
     height: 100%;
@@ -47,6 +47,7 @@ main{
     line-height: 52px;
     color: #3D3D3F;
     margin-bottom: 55px;
+    margin-top: 120px;
 }
 .service-text-1{
     font-weight: 700;
@@ -218,4 +219,48 @@ main{
 }
 .img__banner{
     margin-top: 100px;
+}
+/*-------section team-------*/
+.our__team--card{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* display: flex;
+    justify-content: space-between; */
+    gap: 36px;
+}
+.team__text{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #3D3D3F;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.text1__img{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #3D3D3F;
+    margin-top: 18px;
+    margin-bottom: 1px;
+}
+.text2__img{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 17px;
+}
+.team--our1{
+    
 }
