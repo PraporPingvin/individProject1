@@ -277,6 +277,14 @@ a, u {
     color: #999999;
     margin-bottom: 17px;
 }
-.team--our1{
-    
+/*------footer---------*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 94px;
+}
+.category__text,
+.category__bold{
+    list-style-type: none;
+    margin: 24px 0;
 }
