@@ -6,14 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>идивидуальное задание</title>
     <link rel="stylesheet" href="style/style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header class="header">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <section class="section header-menu">
-            <div class="container container__header" >
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar__wrap">
+                        <div class="hamb">
+                            <div class="hamb__field" id="hamb">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </div>
+                        </div>
+                        <div class="logo__img">
+                            <img src="img/Logo.webp" alt="">
+                            <a href="#" id="logo"><p class="logo__text">Designzcy</p></a>
+                        </div>
+                        <div class="menu">
+                            <ul class="menu__list">
+                                <li><a class="menu__item" href="#">Home</a></li>
+                                <li><a class="menu__item" href="#">Service</a></li>
+                                <li><a class="menu__item" href="#">Portfolio</a></li>
+                                <li><a class="menu__item" href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <button class="logo__button">
+                                Contact us
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="popup" id="popul"></div>
+            <!-- <div class="container container__header" >
                 <div class="logo__img">
-                    <img src="img/Logo.png" alt="">
+                    <img src="img/Logo.webp" alt="">
                     <a href="#"><p class="logo__text">Designzcy</p></a>
                 </div>
                 <div class="menu">
@@ -29,7 +60,7 @@
                         Contact us
                     </button>
                 </div>
-            </div>
+            </div> -->
         </section>
         <section class="section banner">
             <div class="container container__banner">
@@ -55,17 +86,17 @@
                 </div>
                 <div class="service__icon">
                     <div class="service__icon-1">
-                        <img src="img/Icon1.png" alt="">
+                        <img src="img/Icon1.webp" alt="">
                         <p class="service-text-1">5200+</p>
                         <p class="service-text-2">Projects completed</p>
                     </div>
                     <div class="service__icon-2">
-                        <img src="img/Icon2.png" alt="">
+                        <img src="img/Icon2.webp" alt="">
                         <p class="service-text-1">500+</p>
                         <p class="service-text-2">Active clients</p>
                     </div>
                     <div class="service__icon-3">
-                        <img src="img/Icon3.png" alt="">
+                        <img src="img/Icon3.webp" alt="">
                         <p class="service-text-1">4500+</p>
                         <p class="service-text-2">Happy clients</p>
                     </div>
@@ -84,27 +115,27 @@
                 </div>
                 <div class="project-img">
                     <div class="project__img1">
-                        <img class="img__proj" src="img/Mask Group.png" alt="">
+                        <img class="img__proj" src="img/Mask Group.webp" alt="">
                         <p class="project__text-text">Business Consultant Landing Page</p>
                     </div>
                     <div class="project__img2">
-                        <img class="img__proj" src="img/Mask Group (1).png" alt="">
+                        <img class="img__proj" src="img/Mask Group (1).webp" alt="">
                         <p class="project__text-text">Food delivery Web Design</p>
                     </div>
                     <div class="project__img3">
-                        <img class="img__proj" src="img/Mask Group (2).png" alt="">
+                        <img class="img__proj" src="img/Mask Group (2).webp" alt="">
                         <p class="project__text-text">Messenger landing Page</p>
                     </div>
                     <div class="project__img4">
-                        <img class="img__proj" src="img/Mask Group (3).png" alt="">
+                        <img class="img__proj" src="img/Mask Group (3).webp" alt="">
                         <p class="project__text-text">Doctor’s Consultant Landing Page</p>
                     </div>
                     <div class="project__img5">
-                        <img class="img__proj" src="img/Mask Group (4).png" alt="">
+                        <img class="img__proj" src="img/Mask Group (4).webp" alt="">
                         <p class="project__text-text">e-Leraning Web Design</p>
                     </div>
                     <div class="project__img6">
-                        <img class="img__proj" src="img/Mask Group (5).png" alt="">
+                        <img class="img__proj" src="img/Mask Group (5).webp" alt="">
                         <p class="project__text-text">Job Finder landing Page</p>
                     </div>
                     <div class="project__but">
@@ -122,36 +153,36 @@
                 </div>
                 <div class="our__team--card">
                     <div class="team--our1">
-                        <img class="team__img" src="img/1men.png" alt="">
+                        <img class="team__img" src="img/1men.webp" alt="">
                         <p class="text1__img">Amanda Linda</p>
                         <p class="text2__img">Executive officer</p>
-                        <a href="#" class="team-a"><img src="img/Fb.png" alt=""></a>
-                        <a href="#" class="team-a"><img src="img/Tw.png" alt=""></a>
-                        <a href="#" class="team-a"><img src="img/Ld.png" alt=""></a>
+                        <a href="#" class="team-a"><img src="img/Fb.webp" alt=""></a>
+                        <a href="#" class="team-a"><img src="img/Tw.webp" alt=""></a>
+                        <a href="#" class="team-a"><img src="img/Ld.webp" alt=""></a>
                     </div>
                     <div class="team--our2">
-                        <img class="team__img" src="img/2men.png" alt="">
+                        <img class="team__img" src="img/2men.webp" alt="">
                         <p class="text1__img">Alex Smith</p>
                         <p class="text2__img">UX/UI DESIGNER</p>
-                        <a href="#" class="team-a"><img src="img/Fb.png" alt=""></a>
-                        <a href="#" class="team-a"><img src="img/Tw.png" alt=""></a>
-                        <a href="#" class="team-a"><img src="img/Ld.png" alt=""></a>
+                        <a href="#" class="team-a"><img src="img/Fb.webp" alt=""></a>
+                        <a href="#" class="team-a"><img src="img/Tw.webp" alt=""></a>
+                        <a href="#" class="team-a"><img src="img/Ld.webp" alt=""></a>
                     </div>
                     <div class="team--our3">
-                        <img class="team__img" src="img/3men.png" alt="">
+                        <img class="team__img" src="img/3men.webp" alt="">
                         <p class="text1__img">Anthony Fauci</p>
                         <p class="text2__img">Web Developer</p>
-                        <a href="#" class="team-a"><img src="img/Fb.png" alt=""></a>
-                        <a href="#" class="team-a"><img src="img/Tw.png" alt=""></a>
-                        <a href="#" class="team-a"><img src="img/Ld.png" alt=""></a>
+                        <a href="#" class="team-a"><img src="img/Fb.webp" alt=""></a>
+                        <a href="#" class="team-a"><img src="img/Tw.webp" alt=""></a>
+                        <a href="#" class="team-a"><img src="img/Ld.webp" alt=""></a>
                     </div>
                     <div class="team--our4">
-                        <img class="team__img" src="img/4men.png" alt="">
+                        <img class="team__img" src="img/4men.webp" alt="">
                         <p class="text1__img">Khalid Abbed</p>
                         <p class="text2__img">Head of Markter</p>
-                        <a href="#" class="team-a"><img src="img/Fb.png" alt=""></a>
-                        <a href="#" class="team-a"><img src="img/Tw.png" alt=""></a>
-                        <a href="#" class="team-a"><img src="img/Ld.png" alt=""></a>
+                        <a href="#" class="team-a"><img src="img/Fb.webp" alt=""></a>
+                        <a href="#" class="team-a"><img src="img/Tw.webp" alt=""></a>
+                        <a href="#" class="team-a"><img src="img/Ld.webp" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -198,16 +229,16 @@
             <div class="contacts">
                 <ul>
                     <li class="logo__img">
-                        <img src="img/Logo.png" alt="">
+                        <img src="img/Logo.webp" alt="">
                         <a href="#"><p class="logo__text">Designzcy</p></a>
                     </li>
                     <li class="category__text--address"><address>Metairie, 3689  Bassel Street, LA, Louisiana</address></li>
                     <li class="category__text--contact">Contact us:<a href="#">225-788-5489</a></li>
                     <li class="category__text">
-                        <a href="#"><img src="img/Facebook.png" alt=""></a>
-                        <a href="#"><img src="img/Instagram.png" alt=""></a>
-                        <a href="#"><img src="img/Twitter.png" alt=""></a>
-                        <a href="#"><img src="img/Youtube.png" alt=""></a>
+                        <a href="#"><img src="img/Facebook.webp" alt=""></a>
+                        <a href="#"><img src="img/Instagram.webp" alt=""></a>
+                        <a href="#"><img src="img/Twitter.webp" alt=""></a>
+                        <a href="#"><img src="img/Youtube.webp" alt=""></a>
                     </li>
                 </ul>
             </div>
