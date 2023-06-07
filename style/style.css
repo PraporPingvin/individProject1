@@ -422,7 +422,7 @@ a{
     display: grid;
     text-align: initial;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     max-width: 720px;
 }
 .contact1{
@@ -518,7 +518,9 @@ a{
     .service__text{
         font-size: 30px;
     }
-
+    .img--banner{
+        width: 550px;
+    }
     .project-img{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -553,6 +555,7 @@ a{
         justify-content: space-between;
         height: 100%;
         align-items: center;
+        margin-left: 130px;
     }
     .navbar__wrap .menu{
         display: none;
@@ -568,7 +571,6 @@ a{
     .hamb__field{
         padding: 10px 20px;
         cursor: pointer;
-        /* background-color: #E1E2E4; */
     }
     .bar{
         display: block;
@@ -603,7 +605,6 @@ a{
         justify-content: start;
         padding: 60px 0;
     }
-
     .popul .menu > li > a{
         width: 100%;
         display: flex;
@@ -617,32 +618,39 @@ a{
         background-color: #dfe3f8;
     }
 
+    .project-img {
+        display: flex;
+        flex-direction: column;
+    }
+
     .container__header{
         display: flex;
         justify-content: center;
         gap: 25%;
         margin-left: 25%;
-
     }
     .logo__button{
         padding: 12px 24px;
+    }
+    .img--banner{
+        width: 500px;
     }
     .banner__text{
         width: 50%;
         display: flex;
         flex-direction: column;
         gap: 15px;
+        margin-left: 100px;
     }
     .img__banner{
         width: 50%;
     }
-
     .service,
     .project,
     .team{
         display: flex;
         justify-content: center;
-        margin-left: 15%;
+        margin-left: 50px;
     }
 
     .text__contact--us{
@@ -658,8 +666,6 @@ a{
     .contact1{
         display: grid;
         justify-content: center;
-        margin-left: 25%;
-        margin-top: 10%;
     }
 
     .footer{
@@ -678,7 +684,7 @@ a{
     .navbar__wrap .logo__button{
         display: none;
     }
-
+    
     .hamb{
         display: flex;
         align-items: center;
@@ -686,7 +692,6 @@ a{
     .hamb__field{
         padding: 10px 20px;
         cursor: pointer;
-        /* background-color: #E1E2E4; */
     }
     .bar{
         display: block;
@@ -734,7 +739,17 @@ a{
     .popul .menu > li > a :hover{
         background-color: #dfe3f8;
     }
+    .img--banner{
+        display: none;
+    }
 
+    .banner__text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 200px;
+    }
     .container__header{
         display: flex;
         justify-content: center;
@@ -758,24 +773,27 @@ a{
         margin-left: 50%;
     }
 
-    .contact{
+    .contact__contact{
+        display: none;
+    }
+    /* .contact{
         display: grid;
         justify-content: center;
-        margin-left: 50%;
+        margin-left: 350px;
         gap: 15%
     }
     .contact1{
         display: grid;
         justify-content: center;
-        margin-left: 50%;
+        margin-left: 350px;
         margin-top: 10%;
-    }
+    } */
 
     .footer{
         display: flex;
         justify-content: center;
-        gap: 50px;
-        margin-left: 350px;
+        gap: 25px;
+        margin-left: 300px;
     }
     
 }
@@ -787,7 +805,12 @@ a{
     .navbar__wrap .logo__button{
         display: none;
     }
-
+    .navbar__wrap{
+        display: flex;
+        height: 100%;
+        margin: 0;
+        flex-direction: row-reverse;
+    }
     .hamb{
         display: flex;
         align-items: center;
@@ -862,7 +885,14 @@ a{
     .banner__text{
         width: 100%;
         align-items: center;
-        margin-left: 50%;
+        margin-left: 50px;
+    }
+
+    .our__team--card {
+        /* margin-left: 200px; */
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 20px;
     }
 
     .logo__button{
@@ -879,31 +909,46 @@ a{
     .team{
         display: flex;
         justify-content: center;
-        margin-left: 50%;
+        margin: 40px;
+
     }
 
-    .text__contact--us{
-        margin-left: 250px;
+    .contact__contact{
+        display: none;
+    }
+    /* .text__contact--us{
+        text-align: center;
     }
 
-    .contact{
+    .contact__first {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .contact__us{
+        align-items: center;
+        text-align: center;
+        display: flex;
+        width: 340px;
+        flex-direction: column;
+    }
+
+    .contact1,.contact {
         display: grid;
         justify-content: center;
-        margin-left: 400px;
-        gap: 50px;
+        margin-left: auto;
+    } */
+    .category,
+    .about{
+        display: none;
     }
-    .contact1{
-        display: grid;
-        justify-content: center;
-        margin-left: 370px;
-        margin-top: 50px;
-    }
-
     .footer{
         display: flex;
-        justify-content: center;
         gap: 30px;
-        margin-left: 400px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 50px;
     }
     
 }
